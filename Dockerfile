@@ -56,4 +56,5 @@ RUN apt-get update \
 
 EXPOSE 1234
 
-CMD rsp_tcp -a 0.0.0.0 -f 95000000 -s 4096000 -E -v
+ENTRYPOINT ["rsp_tcp", "-a 0.0.0.0"]
+CMD ["-E", "-v"]
