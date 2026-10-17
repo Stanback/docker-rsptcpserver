@@ -1,3 +1,11 @@
+> **Archived — October 16, 2026**
+>
+> This historical SDRplay/RSP TCP container build targets an old driver installer and is no longer maintained or validated against current hardware and releases.
+>
+> Source and history remain available for reference; no further updates or support are planned.
+
+---
+
 # RSP TCP Server Docker Image
 
 This Dockerfile is for building an image of [RSP TCP Server](https://github.com/SDRplay/RSPTCPServer),
